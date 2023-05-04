@@ -1,12 +1,11 @@
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
-    >
-      <div>
-        <h1>Home</h1>
+     <div className=" bg-gray-400 text-center">
+        <h1>Home page</h1>
+        <a href='/api/auth/signin'>login</a>
       </div>
-    </main>
+      
+     
   )
 }
